@@ -35,7 +35,7 @@ setup(
     install_requires=[
         "attrs>=18.2.0",
         "black[jupyter]>=21.9b0",
-        "click>=7.0",
+        "click>=7.0,<8.0",
         "nbformat>=4.4.0",
     ],
     entry_points={"console_scripts": ["black-nb=black_nb.cli:cli"]},
